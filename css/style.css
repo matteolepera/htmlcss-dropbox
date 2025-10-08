@@ -136,3 +136,29 @@ header {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+
+    /* debug */
+    min-height: 400px;
+}
+
+.nav-foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-foot {
+    width: calc(100% / 5 - 80px / 5);
+
+    /* debug */
+    border: 2px solid white;
+    min-height: 300px;
+}
+

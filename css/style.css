@@ -19,7 +19,7 @@ img {
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
-    
+
 
     /* debug */
     background-color: aqua;
@@ -42,13 +42,52 @@ header {
 }
 
 .box-header-left {
-    
+
     /* debug */
     background-color: purple;
 }
 
 .box-header-right {
-    
+
     /* debug */
     background-color: purple;
+}
+
+
+/* MAIN */
+
+.main-container {
+    width: 50%;
+    max-width: 700px;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: yellow;
+    min-height: 1000px;
+    border: 2px solid blue;
+}
+
+/* CARD */
+
+.business-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.col {
+    width: calc(100% / 3 - 40px / 3);
+
+    /* debug */
+    border: 2px solid black;
+    min-height: 600px;
+}
+
+.card-header {
+    border: 1px solid grey;
+
+    /* debug */
+    min-height: 30px;
 }

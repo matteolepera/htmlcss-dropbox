@@ -28,8 +28,12 @@ img {
     min-height: 600px;
 }
 
-.mb-20 {
-    margin-bottom: 20px;
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 
@@ -72,9 +76,9 @@ header {
     border: 2px solid blue;
 }
 
-/* CARD */
+/* PLAN */
 
-.business-box {
+.plan-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,4 +107,32 @@ header {
     /* debug */
     border: 2px solid black;
     min-height: 300px;
+}
+
+/* PARTNER */
+
+.col-60 {
+    width: 60%;
+
+    /* debug */
+    border: 1px solid red;
+    min-height: 300px;
+}
+
+.col-40 {
+    width: 40%;
+
+    /* debug */
+    border: 1px solid red;
+    min-height: 300px;
+}
+
+
+/* BUSINESS */
+
+.business-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
 }

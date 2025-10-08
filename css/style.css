@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +9,46 @@ img {
     max-width: 100%;
 }
 
+/* Utility */
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+
+    /* debug */
+    background-color: aqua;
+    border: 2px solid red;
+    min-height: 600px;
+}
+
+
+
+/* Header */
+
+header {
+    height: 70px;
+
+    /* debug */
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.box-header-left {
+    
+    /* debug */
+    background-color: purple;
+}
+
+.box-header-right {
+    
+    /* debug */
+    background-color: purple;
+}

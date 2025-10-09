@@ -34,12 +34,20 @@ img {
     justify-content: center;
 }
 
+.gp-10 {
+    gap: 10px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.mt-20{
+    margin-top: 20px;
 }
 
 .mt-40 {
@@ -114,7 +122,6 @@ header a {
 /* HERO */
 .hero {
     background-color: #B5D0E6;
-    padding: 60px 0;
 }
 
 .hero-title {

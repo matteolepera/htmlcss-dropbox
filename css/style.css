@@ -34,6 +34,10 @@ img {
     justify-content: center;
 }
 
+.fs-07 {
+    font-size: 0.7rem;
+}
+
 .gp-10 {
     gap: 10px;
 }
@@ -96,7 +100,7 @@ img {
 .btn-large {
     padding: 0.8em 0.8em;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 100%;
     text-align: center;
 }
@@ -217,6 +221,10 @@ header a {
     padding: 30px 20px;
 }
 
+.card-content hr {
+    width: 15%;
+}
+
 .row {
     width: 100%;
 
@@ -229,18 +237,10 @@ header a {
 
 .col-60 {
     width: 60%;
-
-    /* debug */
-    border: 1px solid red;
-    min-height: 300px;
 }
 
 .col-40 {
     width: 40%;
-
-    /* debug */
-    border: 1px solid red;
-    min-height: 300px;
 }
 
 

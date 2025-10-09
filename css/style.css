@@ -15,17 +15,27 @@ img {
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
-.container {
+.large-container {
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
+}
 
+.align-center {
+    align-items: center;
 
-    /* debug */
-    background-color: aqua;
-    border: 2px solid red;
-    min-height: 600px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .mb-40 {
@@ -36,30 +46,106 @@ img {
     margin-top: 40px;
 }
 
+.mr-20 {
+    margin-right: 20px;
+}
 
+.ml-20 {
+    margin-left: 20px;
+}
+
+/* TPOGRAPHY */
+
+.sans {
+    font-family: sans-serif;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white07 {
+    color: rgba( 255, 255, 255, 0.7);
+}
+
+
+/* BUTTON */
+.btn {
+    padding: 0.3em 0.8em;
+    text-decoration: none;
+    background-color: #0061FE;
+    color: #fff;
+}
 
 /* Header */
 
 header {
     height: 70px;
-
-    /* debug */
-    background-color: black;
-    color: white;
+    background-color: white;
+    font-size: 0.8rem;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
 
 }
+
+.logo {
+    height: 20px;
+}
+
 
 .box-header-left {
-
-    /* debug */
-    background-color: purple;
+    gap: 20px;
 }
 
-.box-header-right {
 
-    /* debug */
-    background-color: purple;
+header ul {
+    list-style-type: none;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HERO */
+.hero {
+    background-color: #B5D0E6;
+    padding: 60px 0;
+}
+
+.hero-title {
+    font-size: 2rem;
+    margin-top: 70px;
+    padding-top: 1.5em;
+    font-weight: 900;
+}
+
+.cont-hero {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    line-height: 1.6;
+    padding: 10px 0;
+    position: relative;
+}
+
+.hero-p a {
+    
+    text-decoration: none;
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Dropbox</title>
@@ -11,42 +12,60 @@
 
 <body>
     <!-- Header -->
-    <header class="flex">
-        <div class="box-header-left">
-            <div class="logo">logo</div>
+    <header class="sans flex">
+        <div class="box-header-left flex align-center">
+            <div class="logo ml-20"> <a href=""><img src="./img/logo-small.png" alt="logo dropbox"></a>
+            </div>
 
             <nav class="nav-letf">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul class="flex">
+                    <li><a href="">Perch&egrave; Dropbox</a></li>
+                    <li><a href="">Funzioni</a></li>
+                    <li><a href="">Piani e prezzi</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="box-header-right">
+        <div class="box-header-right flex align-center">
             <nav class="nav-right">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul class="flex">
+                    <li><a href="">Supporta</a></li>
+                    <li><a href="">Contatta l&apos;ufficio vendite</a></li>
+                    <li><a href="">Accedi</a></li>
+                    <li><a class="btn text-white07 mr-20" href="">Inizia</a></li>
                 </ul>
             </nav>
-
-            <div class="btn-header">
-                <a href=".">inizia</a>
-            </div>
         </div>
 
     </header>
     <!-- End-Header -->
 
     <!-- Hero -->
-    <section>
-        <div class="container mb-40">
-            <div class="hero-title"></div>
-            <div class="hero-p"></div>
-            <div class="hero-img"></div>
+    <section class="hero">
+        <div class="large-container mb-40">
+            <div class="hero-title sans">
+                <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
+            </div>
+            <div class="cont-hero sans flex flex wrap">
+            <div class="hero-p col-40 mt-40">
+                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
+                    accessibili sallo stesso posto. Dropbox Business &egrave; pi&ugrave; di
+                    uno spazio di archiviazione sicuro&#58; &egrave; un modo intelligente e
+                    integrato per ottimizzare il flusso di lavoro eistente.
+                </p>
+                <div class="mt-40 flex flex-wrap justify-center">
+                <a class="btn mb-20" href=""> Inizia la tua prova gratuita</a>
+                <a class="text-black" href=""> Annulla in qualsiasi momento</a>
+                <div class="arrow-down">
+                <a class="text-black" href=""><i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="hero-img col-60 mt-40">
+                <img src="./img/jumbo.png" alt="">
+            </div>
+            
         </div>
     </section>
     <!-- End-Hero -->
@@ -136,7 +155,7 @@
 
     <!-- Footer -->
     <footer class="flex mt-40">
-        <div class="container">
+        <div class="large-container">
             <!-- Foot-Top -->
             <nav class="nav-foot">
 
@@ -156,16 +175,14 @@
                     <li></li>
                 </ul>
 
-                <ul class="col-foot">
-                    <li></li>
-                </ul>
-
             </nav>
 
             <!-- End-Foot-Top -->
 
             <!-- Bottom-Foot -->
-            
+             <hr>
+             <div>Italiano</div>
+
             <!-- End-Bottom-Foot -->
         </div>
     </footer>

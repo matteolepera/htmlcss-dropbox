@@ -38,6 +38,10 @@ img {
     gap: 10px;
 }
 
+.gp-5 {
+    gap: 5px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -60,6 +64,10 @@ img {
 
 .ml-20 {
     margin-left: 20px;
+}
+
+.pad15 {
+    padding: 15px 0px;
 }
 
 /* TPOGRAPHY */
@@ -155,7 +163,6 @@ header a {
     left: 0;
 }
 
-
 /* MAIN */
 
 .main-container {
@@ -164,9 +171,7 @@ header a {
     margin: 0 auto;
 
     /* debug */
-    background-color: yellow;
     min-height: 2000px;
-    border: 2px solid blue;
 }
 
 /* PLAN */
@@ -181,17 +186,26 @@ header a {
 
 .col {
     width: calc(100% / 3 - 40px / 3);
-
-    /* debug */
-    border: 2px solid black;
-    min-height: 600px;
 }
 
 .card-header {
-    border: 1px solid grey;
+    
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #D8D8DB;
+}
 
-    /* debug */
-    min-height: 30px;
+.card {
+    border: 1px solid #D8D8DB;
+}
+
+.user {
+    list-style-image: url(../img/user.svg);
+    height: 10px;
+}
+
+.card-content {
+    padding: 30px 20px;
 }
 
 .row {

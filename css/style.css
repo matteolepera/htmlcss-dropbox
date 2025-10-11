@@ -30,20 +30,28 @@ img {
 
 }
 
+.align-baseline {
+    align-items: baseline;
+}
+
 .justify-center {
     justify-content: center;
 }
 
-.fs-07 {
-    font-size: 0.7rem;
+.gp-5 {
+    gap: 5px;
 }
 
 .gp-10 {
     gap: 10px;
 }
 
-.gp-5 {
-    gap: 5px;
+.gp-20 {
+    gap: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
 }
 
 .mb-20 {
@@ -52,6 +60,10 @@ img {
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
 }
 
 .mt-20{
@@ -74,6 +86,18 @@ img {
     padding: 15px 0px;
 }
 
+.padyx-20 {
+    padding: 20px 20px;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
 /* TPOGRAPHY */
 
 .sans {
@@ -84,10 +108,27 @@ img {
     color: #000000;
 }
 
+.text-blue {
+    color: #0B63FE;
+}
+
+.text-grey {
+    color: #758295;
+}
+
 .text-white07 {
     color: rgba( 255, 255, 255, 0.7);
 }
 
+
+.fs-07 {
+    font-size: 0.7rem;
+}
+
+
+.fw-300 {
+    font-weight: 300;
+}
 
 /* BUTTON */
 .btn {
@@ -103,6 +144,13 @@ img {
     font-size: 0.7rem;
     width: 100%;
     text-align: center;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    width: 50%;
 }
 
 
@@ -174,6 +222,7 @@ header a {
     position: absolute;
     bottom: 0;
     left: 0;
+    font-size: 1.5rem;
 }
 
 /* MAIN */
@@ -208,6 +257,13 @@ header a {
     border-bottom: 1px solid #D8D8DB;
 }
 
+.card-header-bottom {
+    
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #D8D8DB;
+}
+
 .card {
     border: 1px solid #D8D8DB;
 }
@@ -227,10 +283,17 @@ header a {
 
 .row {
     width: 100%;
+}
 
-    /* debug */
-    border: 2px solid black;
-    min-height: 300px;
+.share, .user, 
+.disk {
+    display: flex;
+    gap: 5px;
+}
+
+.euro {
+    font-weight: 600;
+    font-size: 0.8rem;
 }
 
 /* PARTNER */
@@ -243,6 +306,10 @@ header a {
     width: 40%;
 }
 
+.p-partner {
+    font-size: 0.8rem;
+    
+}
 
 /* BUSINESS */
 
@@ -258,10 +325,10 @@ header a {
 
 footer {
     background-color: #000000;
-
-    /* debug */
-    min-height: 400px;
+    padding: 60px 50px;
+    color: #fff;
 }
+
 
 .nav-foot {
     display: flex;
@@ -270,11 +337,18 @@ footer {
     gap: 20px;
 }
 
-.col-foot {
-    width: calc(100% / 5 - 80px / 5);
-
-    /* debug */
-    border: 2px solid white;
-    min-height: 300px;
+.nav-foot ul {
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 2;
 }
 
+.col-foot {
+    width: calc(100% / 5 - 80px / 5);
+}
+
+
+.divider {
+    width: 15%;
+}
